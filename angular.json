@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular10JwtAuth"
+    }
+  },
+  "defaultProject": "Angular10JwtAuth",
+  "cli": {
+    "analytics": "b40d6de3-ffc6-406a-b155-9c90c2001d48"
+  }
 }
