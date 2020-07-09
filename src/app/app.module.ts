@@ -17,7 +17,7 @@ import { BoardUserComponent } from './board-user/board-user.component';
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
 import { FornecedoresComponent } from './components/fornecedores/fornecedores.component';
 import { RecursosComponent } from './components/recursos/recursos.component';
-import { CursosComponent } from './components/cursos/cursos.component';
+import { CursosComponent } from './cursos/cursos.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
 import { ClientesFisicaComponent } from './clientesFisica/clientesFisica.component';
 
@@ -36,6 +36,7 @@ import { ClientesFisicaComponent } from './clientesFisica/clientesFisica.compone
     CursosComponent,
     ProjetosComponent,
     ClientesFisicaComponent
+
   ],
   imports: [
     BrowserModule,
