@@ -19,7 +19,7 @@ import { FornecedoresComponent } from './components/fornecedores/fornecedores.co
 import { RecursosComponent } from './components/recursos/recursos.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
-import { ClientesComponent } from './components/clientes/clientes.component';
+import { ClientesFisicaComponent } from './clientesFisica/clientesFisica.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { ClientesComponent } from './components/clientes/clientes.component';
     RecursosComponent,
     CursosComponent,
     ProjetosComponent,
-    ClientesComponent
+    ClientesFisicaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+<table class="table table-hover table-dark">
+  <thead class="text-warning">
+  <tr>
+    <th scope="col">Nome</th>
+    <th scope="col">CPF</th>
+  </tr>
+  <tbody>
+<tr *ngFor="let clientefsicca of results$ | async">
+  <td>{{  clientefsicca.nome  }}</td>
+  <td>{{  clientefsicca.cpf   }}</td>
+</tr>
+  </tbody>
+</table>

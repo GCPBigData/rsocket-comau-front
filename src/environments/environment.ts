@@ -2,8 +2,8 @@ export const environment = {
   production: true,
   /*COMAU   φ = '1,61803398874988'; */
 
-  /*CIENTE*/
-  urlClienteLista: 'ws://localhost:8080/cliente',
+  /*CIENTE FISICA*/
+  urlClienteLista: '/clienteFisica/v1/todos',
 
   /*CURSO*/
   urlCursoLista: 'ws://localhost:8080/curso',
