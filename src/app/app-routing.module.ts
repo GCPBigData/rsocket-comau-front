@@ -9,6 +9,7 @@ import { BoardUserComponent } from './board-user/board-user.component';
 import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
 import { BoardAdminComponent } from './board-admin/board-admin.component';
 import {ClientesFisicaComponent} from './clientesFisica/clientesFisica.component';
+import {CursosComponent} from './cursos/cursos.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'mod', component: BoardModeratorComponent },
   { path: 'admin', component: BoardAdminComponent },
   { path: 'clientefisica', component: ClientesFisicaComponent },
+  { path: 'cursos', component: CursosComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
